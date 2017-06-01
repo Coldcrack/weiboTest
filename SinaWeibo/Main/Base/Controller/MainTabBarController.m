@@ -50,6 +50,11 @@
             [tabBarButton removeFromSuperview];
         }
     }
+//    2.自定义创建标签栏按钮，并添加点击事件
+    
+//    3.标签栏背景设定
+//    4.点击选中的视图创建
+    
 }
 //视图即将渲染
 -(void)viewWillAppear:(BOOL)animated {
