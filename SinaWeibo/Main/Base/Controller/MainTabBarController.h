@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  MainTabBarController.h
 //  SinaWeibo
 //
 //  Created by 嗷嗷叫 on 2017/5/24.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface MainTabBarController : UITabBarController
 
 @end
-

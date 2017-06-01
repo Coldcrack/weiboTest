@@ -9,10 +9,19 @@
 /* Begin PBXBuildFile section */
 		63F618541ED57D6F001B2505 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 63F618531ED57D6F001B2505 /* main.m */; };
 		63F618571ED57D6F001B2505 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 63F618561ED57D6F001B2505 /* AppDelegate.m */; };
-		63F6185A1ED57D6F001B2505 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63F618591ED57D6F001B2505 /* ViewController.m */; };
-		63F6185D1ED57D6F001B2505 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63F6185B1ED57D6F001B2505 /* Main.storyboard */; };
 		63F6185F1ED57D6F001B2505 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63F6185E1ED57D6F001B2505 /* Assets.xcassets */; };
 		63F618621ED57D6F001B2505 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63F618601ED57D6F001B2505 /* LaunchScreen.storyboard */; };
+		63F618861ED57EAA001B2505 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63F618851ED57EAA001B2505 /* HomeViewController.m */; };
+		63F618881ED57EB4001B2505 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63F618871ED57EB4001B2505 /* Home.storyboard */; };
+		63F6188B1ED57EEE001B2505 /* MessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63F6188A1ED57EEE001B2505 /* MessageViewController.m */; };
+		63F6188D1ED57EFB001B2505 /* Message.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63F6188C1ED57EFB001B2505 /* Message.storyboard */; };
+		63F618901ED57F21001B2505 /* MoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63F6188F1ED57F21001B2505 /* MoreViewController.m */; };
+		63F618921ED57F2A001B2505 /* More.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63F618911ED57F2A001B2505 /* More.storyboard */; };
+		63F618951ED57F46001B2505 /* DiscoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63F618941ED57F46001B2505 /* DiscoverViewController.m */; };
+		63F618971ED57F54001B2505 /* Discover.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63F618961ED57F54001B2505 /* Discover.storyboard */; };
+		63F6189A1ED57F97001B2505 /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63F618991ED57F97001B2505 /* ProfileViewController.m */; };
+		63F6189C1ED57FA8001B2505 /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63F6189B1ED57FA8001B2505 /* Profile.storyboard */; };
+		63F6189F1ED585BF001B2505 /* MainTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63F6189E1ED585BF001B2505 /* MainTabBarController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +29,26 @@
 		63F618531ED57D6F001B2505 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		63F618551ED57D6F001B2505 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		63F618561ED57D6F001B2505 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		63F618581ED57D6F001B2505 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		63F618591ED57D6F001B2505 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		63F6185C1ED57D6F001B2505 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		63F6185E1ED57D6F001B2505 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		63F618611ED57D6F001B2505 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		63F618631ED57D6F001B2505 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63F618841ED57EAA001B2505 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		63F618851ED57EAA001B2505 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		63F618871ED57EB4001B2505 /* Home.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		63F618891ED57EEE001B2505 /* MessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageViewController.h; sourceTree = "<group>"; };
+		63F6188A1ED57EEE001B2505 /* MessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageViewController.m; sourceTree = "<group>"; };
+		63F6188C1ED57EFB001B2505 /* Message.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Message.storyboard; sourceTree = "<group>"; };
+		63F6188E1ED57F21001B2505 /* MoreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoreViewController.h; sourceTree = "<group>"; };
+		63F6188F1ED57F21001B2505 /* MoreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoreViewController.m; sourceTree = "<group>"; };
+		63F618911ED57F2A001B2505 /* More.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = More.storyboard; path = "../../更多/View/More.storyboard"; sourceTree = "<group>"; };
+		63F618931ED57F46001B2505 /* DiscoverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiscoverViewController.h; sourceTree = "<group>"; };
+		63F618941ED57F46001B2505 /* DiscoverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiscoverViewController.m; sourceTree = "<group>"; };
+		63F618961ED57F54001B2505 /* Discover.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Discover.storyboard; path = "../../发现/View/Discover.storyboard"; sourceTree = "<group>"; };
+		63F618981ED57F97001B2505 /* ProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
+		63F618991ED57F97001B2505 /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
+		63F6189B1ED57FA8001B2505 /* Profile.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
+		63F6189D1ED585BF001B2505 /* MainTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTabBarController.h; sourceTree = "<group>"; };
+		63F6189E1ED585BF001B2505 /* MainTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTabBarController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +81,11 @@
 		63F618511ED57D6F001B2505 /* SinaWeibo */ = {
 			isa = PBXGroup;
 			children = (
+				63F618691ED57E55001B2505 /* 第三方类库 */,
+				63F6186A1ED57E55001B2505 /* Images */,
+				63F6186B1ED57E55001B2505 /* Main */,
 				63F618551ED57D6F001B2505 /* AppDelegate.h */,
 				63F618561ED57D6F001B2505 /* AppDelegate.m */,
-				63F618581ED57D6F001B2505 /* ViewController.h */,
-				63F618591ED57D6F001B2505 /* ViewController.m */,
-				63F6185B1ED57D6F001B2505 /* Main.storyboard */,
 				63F6185E1ED57D6F001B2505 /* Assets.xcassets */,
 				63F618601ED57D6F001B2505 /* LaunchScreen.storyboard */,
 				63F618631ED57D6F001B2505 /* Info.plist */,
@@ -77,6 +100,236 @@
 				63F618531ED57D6F001B2505 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		63F618691ED57E55001B2505 /* 第三方类库 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "第三方类库";
+			sourceTree = "<group>";
+		};
+		63F6186A1ED57E55001B2505 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		63F6186B1ED57E55001B2505 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				63F6186C1ED57E55001B2505 /* Base */,
+				63F618701ED57E55001B2505 /* 个人中心 */,
+				63F618741ED57E55001B2505 /* 发现 */,
+				63F618781ED57E55001B2505 /* 更多 */,
+				63F6187C1ED57E55001B2505 /* 消息 */,
+				63F618801ED57E55001B2505 /* 首页 */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		63F6186C1ED57E55001B2505 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				63F6186D1ED57E55001B2505 /* Controller */,
+				63F6186E1ED57E55001B2505 /* Model */,
+				63F6186F1ED57E55001B2505 /* View */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		63F6186D1ED57E55001B2505 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				63F6189D1ED585BF001B2505 /* MainTabBarController.h */,
+				63F6189E1ED585BF001B2505 /* MainTabBarController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		63F6186E1ED57E55001B2505 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		63F6186F1ED57E55001B2505 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		63F618701ED57E55001B2505 /* 个人中心 */ = {
+			isa = PBXGroup;
+			children = (
+				63F618711ED57E55001B2505 /* Controller */,
+				63F618721ED57E55001B2505 /* Model */,
+				63F618731ED57E55001B2505 /* View */,
+			);
+			path = "个人中心";
+			sourceTree = "<group>";
+		};
+		63F618711ED57E55001B2505 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				63F618981ED57F97001B2505 /* ProfileViewController.h */,
+				63F618991ED57F97001B2505 /* ProfileViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		63F618721ED57E55001B2505 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		63F618731ED57E55001B2505 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				63F6189B1ED57FA8001B2505 /* Profile.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		63F618741ED57E55001B2505 /* 发现 */ = {
+			isa = PBXGroup;
+			children = (
+				63F618751ED57E55001B2505 /* Controller */,
+				63F618761ED57E55001B2505 /* Model */,
+				63F618771ED57E55001B2505 /* View */,
+			);
+			path = "发现";
+			sourceTree = "<group>";
+		};
+		63F618751ED57E55001B2505 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				63F618931ED57F46001B2505 /* DiscoverViewController.h */,
+				63F618941ED57F46001B2505 /* DiscoverViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		63F618761ED57E55001B2505 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		63F618771ED57E55001B2505 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				63F618911ED57F2A001B2505 /* More.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		63F618781ED57E55001B2505 /* 更多 */ = {
+			isa = PBXGroup;
+			children = (
+				63F618791ED57E55001B2505 /* Controller */,
+				63F6187A1ED57E55001B2505 /* Model */,
+				63F6187B1ED57E55001B2505 /* View */,
+			);
+			path = "更多";
+			sourceTree = "<group>";
+		};
+		63F618791ED57E55001B2505 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				63F6188E1ED57F21001B2505 /* MoreViewController.h */,
+				63F6188F1ED57F21001B2505 /* MoreViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		63F6187A1ED57E55001B2505 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		63F6187B1ED57E55001B2505 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				63F618961ED57F54001B2505 /* Discover.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		63F6187C1ED57E55001B2505 /* 消息 */ = {
+			isa = PBXGroup;
+			children = (
+				63F6187D1ED57E55001B2505 /* Controller */,
+				63F6187E1ED57E55001B2505 /* Model */,
+				63F6187F1ED57E55001B2505 /* View */,
+			);
+			path = "消息";
+			sourceTree = "<group>";
+		};
+		63F6187D1ED57E55001B2505 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				63F618891ED57EEE001B2505 /* MessageViewController.h */,
+				63F6188A1ED57EEE001B2505 /* MessageViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		63F6187E1ED57E55001B2505 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		63F6187F1ED57E55001B2505 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				63F6188C1ED57EFB001B2505 /* Message.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		63F618801ED57E55001B2505 /* 首页 */ = {
+			isa = PBXGroup;
+			children = (
+				63F618811ED57E55001B2505 /* Controller */,
+				63F618821ED57E55001B2505 /* Model */,
+				63F618831ED57E55001B2505 /* View */,
+			);
+			path = "首页";
+			sourceTree = "<group>";
+		};
+		63F618811ED57E55001B2505 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				63F618841ED57EAA001B2505 /* HomeViewController.h */,
+				63F618851ED57EAA001B2505 /* HomeViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		63F618821ED57E55001B2505 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		63F618831ED57E55001B2505 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				63F618871ED57EB4001B2505 /* Home.storyboard */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,9 +390,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63F618881ED57EB4001B2505 /* Home.storyboard in Resources */,
+				63F618921ED57F2A001B2505 /* More.storyboard in Resources */,
 				63F618621ED57D6F001B2505 /* LaunchScreen.storyboard in Resources */,
+				63F6188D1ED57EFB001B2505 /* Message.storyboard in Resources */,
 				63F6185F1ED57D6F001B2505 /* Assets.xcassets in Resources */,
-				63F6185D1ED57D6F001B2505 /* Main.storyboard in Resources */,
+				63F6189C1ED57FA8001B2505 /* Profile.storyboard in Resources */,
+				63F618971ED57F54001B2505 /* Discover.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -150,23 +407,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				63F6185A1ED57D6F001B2505 /* ViewController.m in Sources */,
 				63F618571ED57D6F001B2505 /* AppDelegate.m in Sources */,
+				63F618951ED57F46001B2505 /* DiscoverViewController.m in Sources */,
 				63F618541ED57D6F001B2505 /* main.m in Sources */,
+				63F6188B1ED57EEE001B2505 /* MessageViewController.m in Sources */,
+				63F6189A1ED57F97001B2505 /* ProfileViewController.m in Sources */,
+				63F618861ED57EAA001B2505 /* HomeViewController.m in Sources */,
+				63F6189F1ED585BF001B2505 /* MainTabBarController.m in Sources */,
+				63F618901ED57F21001B2505 /* MoreViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		63F6185B1ED57D6F001B2505 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				63F6185C1ED57D6F001B2505 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		63F618601ED57D6F001B2505 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -274,6 +528,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = SinaWeibo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.aoao.SinaWeibo;
@@ -285,6 +540,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = SinaWeibo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.aoao.SinaWeibo;
