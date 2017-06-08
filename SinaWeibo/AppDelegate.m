@@ -22,9 +22,18 @@
     //创建TabBarController
     MainTabBarController *main = [[MainTabBarController alloc]init];
     self.window.rootViewController = main;
+    //初始化新浪微博
+    [self sinaWeibo];
     return YES;
 }
 
+-(void)initSinaWeibo {
+    //新浪微博初始化
+    _sinaWeibo = [[SinaWeibo alloc]initWithAppKey:kAppKey   //app识别符
+                                        appSecret:kAppSecret   //APP密码
+                                   appRedirectURI:kAppRedirectURL   //回调页面
+                                       andDelegate:self];     //代理对象  用来处理登录结果
+}
 
 - (void)applicationWillResignActive:(UIApplication *)application {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.

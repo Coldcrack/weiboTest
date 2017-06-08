@@ -1,0 +1,20 @@
+//
+//  PrefixHeader.pch
+//  SinaWeibo
+//
+//  Created by 嗷嗷叫 on 2017/6/8.
+//  Copyright © 2017年 嗷嗷叫aoaojiao. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+//微博的AppKey
+#define kAppKey @"1631425082"
+#define kAppSecret @"99cf54049fb77a1e1f7597e7e6253aff"
+#define kAppRedirectURL @"http://www.baidu.com"
+
+#endif /* PrefixHeader_pch */
