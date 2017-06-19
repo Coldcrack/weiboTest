@@ -133,7 +133,7 @@
             else if ([dataParam isKindOfClass:[NSData class]]) 
             {
                 [self appendUTF8Body:body dataString:[NSString stringWithFormat:@"Content-Disposition: form-data; name=\"%@\"; filename=\"file\"\r\n", key]];
-                [self appendUTF8Body:body dataString:@"Content-Type: content/unknown\r\nContent-Transfer-Encoding: binary\r\n\r\n"];
+                [self appendUTF8Body:body dataString:[NSString stringWithString:@"Content-Type: content/unknown\r\nContent-Transfer-Encoding: binary\r\n\r\n"]];
                 [body appendData:(NSData*)dataParam];
             }
             [self appendUTF8Body:body dataString:bodySuffixString];

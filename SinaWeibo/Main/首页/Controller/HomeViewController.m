@@ -7,7 +7,7 @@
 //
 
 #import "HomeViewController.h"
-
+#import "AppDelegate.h"
 @interface HomeViewController ()
 
 @end
@@ -17,6 +17,16 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+}
+//登录微博操作
+- (IBAction)loginWeibo:(id)sender {
+    //拿到APPDelegate对象
+    AppDelegate *delegate = (AppDelegate *)[UIApplication sharedApplication].delegate;
+    //拿到sinaweibo对象
+    SinaWeibo *weibo = delegate.sinaWeibo;
+    //打开登录界面，显示WebView
+    [weibo logIn];
+    
 }
 
 - (void)didReceiveMemoryWarning {
