@@ -16,7 +16,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+//     Do any additional setup after loading the view.
+    self.title = @"我的微博";
 }
 //登录微博操作
 - (IBAction)loginWeibo:(id)sender {
