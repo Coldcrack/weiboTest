@@ -25,7 +25,7 @@
             </objects>
             <point key="canvasLocation" x="-729" y="204"/>
         </scene>
-        <!--More View Controller-->
+        <!--更多-->
         <scene sceneID="Zj4-5i-siD">
             <objects>
                 <viewController id="VH9-eS-s6M" customClass="MoreViewController" sceneMemberID="viewController">
@@ -58,7 +58,7 @@
                         </subviews>
                         <color key="backgroundColor" red="0.41308129370000002" green="0.64894427040000002" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
-                    <navigationItem key="navigationItem" id="Jgy-9G-Ntm"/>
+                    <navigationItem key="navigationItem" title="更多" id="Jgy-9G-Ntm"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qcJ-td-ilF" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

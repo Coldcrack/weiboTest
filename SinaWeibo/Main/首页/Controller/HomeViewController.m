@@ -8,8 +8,9 @@
 
 #import "HomeViewController.h"
 #import "AppDelegate.h"
+#import "ThemeImageView.h"
 @interface HomeViewController ()
-@property (weak, nonatomic) IBOutlet UIImageView *imageView;
+@property (weak, nonatomic) IBOutlet ThemeImageView *imageView;
 
 @end
 
@@ -19,21 +20,11 @@
     [super viewDidLoad];
 //     Do any additional setup after loading the view.
     self.navigationItem.title = @"我的微博";
-    _imageView.image = [UIImage imageNamed:@"Skins/bluemoon/avatar_default.png"];
     
-    //结束通知
-    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(changeTheme:) name:kThemeChangedNotificationName object:nil];
+    
+    _imageView.imageName = @"avatar_default.png";
 }
--(void)changeTheme:(NSNotification *)noti {
-    NSLog(@"%@",noti.userInfo);
-    NSString *imageFilePath = noti.userInfo[@"imagePath"];
-    NSString *imageNamed = [NSString stringWithFormat:@"%@%@",imageFilePath,@"avatar_default.png"];
-    UIImage *image = [UIImage imageNamed:imageNamed];
-    _imageView.image = image;
-}
--(void)dealloc {
-    [[NSNotificationCenter defaultCenter] removeObserver:self];
-}
+
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.

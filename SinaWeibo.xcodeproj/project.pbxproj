@@ -14,6 +14,7 @@
 		632889111EE90F9300B28BB9 /* SinaWeiboRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 6328890C1EE90F9300B28BB9 /* SinaWeiboRequest.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		639F6CA21EF8B67500D2D38A /* Discover.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 639F6CA11EF8B67500D2D38A /* Discover.storyboard */; };
 		639F6CA41EF8B68800D2D38A /* More.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 639F6CA31EF8B68800D2D38A /* More.storyboard */; };
+		639F6CA81EF8E4E800D2D38A /* ThemeImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 639F6CA71EF8E4E800D2D38A /* ThemeImageView.m */; };
 		63A906D81EF7CD6200FAC8BE /* BaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63A906D71EF7CD6200FAC8BE /* BaseNavigationController.m */; };
 		63D7E9571EE004E8002EB9E3 /* 37x-Checkmark.png in Resources */ = {isa = PBXBuildFile; fileRef = 63D7D7E71EE004DF002EB9E3 /* 37x-Checkmark.png */; };
 		63D7E9581EE004E8002EB9E3 /* 37x-Checkmark@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 63D7D7E81EE004DF002EB9E3 /* 37x-Checkmark@2x.png */; };
@@ -393,6 +394,8 @@
 		632889131EE93D7100B28BB9 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		639F6CA11EF8B67500D2D38A /* Discover.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Discover.storyboard; sourceTree = "<group>"; };
 		639F6CA31EF8B68800D2D38A /* More.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = More.storyboard; sourceTree = "<group>"; };
+		639F6CA61EF8E4E800D2D38A /* ThemeImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThemeImageView.h; sourceTree = "<group>"; };
+		639F6CA71EF8E4E800D2D38A /* ThemeImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThemeImageView.m; sourceTree = "<group>"; };
 		63A906D61EF7CD6200FAC8BE /* BaseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseNavigationController.h; sourceTree = "<group>"; };
 		63A906D71EF7CD6200FAC8BE /* BaseNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseNavigationController.m; sourceTree = "<group>"; };
 		63D7D7E71EE004DF002EB9E3 /* 37x-Checkmark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "37x-Checkmark.png"; sourceTree = "<group>"; };
@@ -803,6 +806,15 @@
 			path = SinaWeibo;
 			sourceTree = "<group>";
 		};
+		639F6CA51EF8E4B800D2D38A /* ThemeManager */ = {
+			isa = PBXGroup;
+			children = (
+				639F6CA61EF8E4E800D2D38A /* ThemeImageView.h */,
+				639F6CA71EF8E4E800D2D38A /* ThemeImageView.m */,
+			);
+			path = ThemeManager;
+			sourceTree = "<group>";
+		};
 		63D7D7E61EE004DF002EB9E3 /* Images */ = {
 			isa = PBXGroup;
 			children = (
@@ -1194,6 +1206,7 @@
 		63F618511ED57D6F001B2505 /* SinaWeibo */ = {
 			isa = PBXGroup;
 			children = (
+				639F6CA51EF8E4B800D2D38A /* ThemeManager */,
 				63D7D7E61EE004DF002EB9E3 /* Images */,
 				63F618691ED57E55001B2505 /* 第三方类库 */,
 				63F6186B1ED57E55001B2505 /* Main */,
@@ -1878,6 +1891,7 @@
 				6328890F1EE90F9300B28BB9 /* SinaWeibo.m in Sources */,
 				63F6189A1ED57F97001B2505 /* ProfileViewController.m in Sources */,
 				63F618861ED57EAA001B2505 /* HomeViewController.m in Sources */,
+				639F6CA81EF8E4E800D2D38A /* ThemeImageView.m in Sources */,
 				63F6189F1ED585BF001B2505 /* MainTabBarController.m in Sources */,
 				63F618901ED57F21001B2505 /* MoreViewController.m in Sources */,
 				632889111EE90F9300B28BB9 /* SinaWeiboRequest.m in Sources */,

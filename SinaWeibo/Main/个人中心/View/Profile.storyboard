@@ -25,7 +25,7 @@
             </objects>
             <point key="canvasLocation" x="-449" y="-92"/>
         </scene>
-        <!--Profile View Controller-->
+        <!--个人中心-->
         <scene sceneID="cQa-aS-syp">
             <objects>
                 <viewController id="cGZ-t3-7vZ" customClass="ProfileViewController" sceneMemberID="viewController">
@@ -38,11 +38,11 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" red="0.5461130327" green="1" blue="0.39230799170000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
-                    <navigationItem key="navigationItem" id="eWL-ib-BqD"/>
+                    <navigationItem key="navigationItem" title="个人中心" id="eWL-ib-BqD"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wfZ-Rq-Sbi" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="457" y="-92"/>
+            <point key="canvasLocation" x="239" y="-92"/>
         </scene>
     </scenes>
 </document>

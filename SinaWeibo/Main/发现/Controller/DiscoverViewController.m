@@ -7,7 +7,7 @@
 //
 
 #import "DiscoverViewController.h"
-
+#import "ThemeImageView.h"
 @interface DiscoverViewController ()
 
 @end
@@ -16,7 +16,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    ThemeImageView *imageView = [[ThemeImageView alloc]initWithFrame:CGRectMake(100, 100, 100, 100)];
+    imageView.imageName = @"avatar_default.png";
+    [self.view addSubview:imageView];
 }
 
 - (void)didReceiveMemoryWarning {
