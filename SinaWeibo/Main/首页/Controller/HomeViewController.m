@@ -26,6 +26,10 @@
 }
 -(void)changeTheme:(NSNotification *)noti {
     NSLog(@"%@",noti.userInfo);
+    NSString *imageFilePath = noti.userInfo[@"imagePath"];
+    NSString *imageNamed = [NSString stringWithFormat:@"%@%@",imageFilePath,@"avatar_default.png"];
+    UIImage *image = [UIImage imageNamed:imageNamed];
+    _imageView.image = image;
 }
 -(void)dealloc {
     [[NSNotificationCenter defaultCenter] removeObserver:self];
