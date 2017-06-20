@@ -9,6 +9,7 @@
 #import "HomeViewController.h"
 #import "AppDelegate.h"
 @interface HomeViewController ()
+@property (weak, nonatomic) IBOutlet UIImageView *imageView;
 
 @end
 
@@ -17,19 +18,18 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 //     Do any additional setup after loading the view.
-    self.title = @"我的微博";
-}
-//登录微博操作
-- (IBAction)loginWeibo:(id)sender {
-    //拿到APPDelegate对象
-    AppDelegate *delegate = (AppDelegate *)[UIApplication sharedApplication].delegate;
-    //拿到sinaweibo对象
-    SinaWeibo *weibo = delegate.sinaWeibo;
-    //打开登录界面，显示WebView
-    [weibo logIn];
+    self.navigationItem.title = @"我的微博";
+    _imageView.image = [UIImage imageNamed:@"Skins/bluemoon/avatar_default.png"];
     
+    //结束通知
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(changeTheme:) name:kThemeChangedNotificationName object:nil];
 }
-
+-(void)changeTheme:(NSNotification *)noti {
+    NSLog(@"%@",noti.userInfo);
+}
+-(void)dealloc {
+    [[NSNotificationCenter defaultCenter] removeObserver:self];
+}
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.

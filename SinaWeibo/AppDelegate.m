@@ -20,21 +20,21 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    //创建Window
+
     self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
     [self.window makeKeyAndVisible];
-    //创建TabBarController
+
     MainTabBarController *main = [[MainTabBarController alloc]init];
     self.window.rootViewController = main;
     //初始化新浪微博
     [self initSinaWeibo];
     //判断是否已登录
-////    BOOL isLogin = [self readAuthData];
-//    if (isLogin) {
-//        NSLog(@"微博已登录：%@",_sinaWeibo.accessToken);
-//    } else {
-//        [_sinaWeibo logIn];
-//    }
+    BOOL isLogin = [self readAuthData];
+    if (isLogin) {
+        NSLog(@"微博已登录：%@",_sinaWeibo.accessToken);
+    } else {
+        [_sinaWeibo logIn];
+    }
     return YES;
 }
 

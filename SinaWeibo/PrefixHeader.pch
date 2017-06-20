@@ -18,5 +18,6 @@
 #define kAppRedirectURL @"http://www.baidu.com"
 
 #define kSystemVersion [[UIDevice currentDevice].systemName floatValue]
-
+//主题切换通知名
+#define kThemeChangedNotificationName @"kThemeChangedNotificationName"
 #endif /* PrefixHeader_pch */

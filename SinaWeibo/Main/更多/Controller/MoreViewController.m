@@ -18,6 +18,14 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
 }
+- (IBAction)bluemoon:(id)sender {
+    NSNotificationCenter *center = [NSNotificationCenter defaultCenter];
+    [center postNotificationName:kThemeChangedNotificationName object:nil userInfo:@{@"imagePath":@"Skins/bluemoon/"}];
+}
+- (IBAction)cat:(id)sender {
+    NSNotificationCenter *center = [NSNotificationCenter defaultCenter];
+    [center postNotificationName:kThemeChangedNotificationName object:nil userInfo:@{@"imagePath":@"Skins/cat/"}];
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

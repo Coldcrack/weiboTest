@@ -10,7 +10,7 @@
 
 @interface MainTabBarController ()
 {
-    UIImageView *_arrowImageView; //切换界面时，显示当前页面的标记
+    UIImageView *_arrowImageView;
 }
 @end
 
@@ -20,46 +20,47 @@
 -(instancetype)init {
     self = [super init];
     if (self) {
-        //使用数组保持文件名
+
         NSArray *fileNames = @[@"Home",
                                @"Message",
                                @"Profile",
                                @"Discover",
                                @"More"];
         NSMutableArray *mArray = [[NSMutableArray alloc]init];
-        //分别读取5个storyBoard
+
         for (NSString *storyBoardName in fileNames) {
-            //文件读取
+
             UIStoryboard *sb = [UIStoryboard storyboardWithName:storyBoardName bundle:[NSBundle mainBundle]];
-            //从读取到的文件中 获取控制器
+
             UIViewController *viewController = [sb instantiateInitialViewController];
             [mArray addObject:viewController];
         }
-        //将读取到的视图控制器交给标签控制器处理
+
         self.viewControllers = [mArray copy];
         [self customTabBar];
     }
     return self;
 }
 
-//自定义标签栏
+
 -(void)customTabBar {
-//    1.移除系统自带的UITabBarButton
+
     for (UIView *tabBarButton in self.tabBar.subviews) {
-        //判断获取到的子视图是否是UITabBarButton的类对象
+
         Class buttonClass = NSClassFromString(@"UITabBarButton");
         
         if ([tabBarButton isKindOfClass:buttonClass]) {
-            //移除
+
             [tabBarButton removeFromSuperview];
         }
     }
-    //按钮宽度
+   
+    
     CGFloat buttonWidth = [UIScreen mainScreen].bounds.size.width / 5;
-//    2.自定义创建标签栏按钮，并添加点击事件
+
     for (int i=0; i<5; i++) {
         CGRect buttonFrame = CGRectMake(i*buttonWidth, 0, buttonWidth, 49);
-        //创建按钮对象
+
         UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
         button.frame = buttonFrame;
         [self.tabBar addSubview:button];
@@ -70,12 +71,12 @@
         button.tag = i;
     }
     
-    //3.标签栏背景设定
+
     UIImage *image = [UIImage imageNamed:@"Skins/bluemoon/mask_navbar.png"];
     [self.tabBar setBackgroundImage:image];
-    //标签栏阴影线
+
     self.tabBar.shadowImage = [[UIImage alloc] init];
-    //4.点击选中的视图创建
+
     //home_bottom_tab_arrow.png
     _arrowImageView = [[UIImageView alloc]initWithFrame:CGRectMake(0, 0, buttonWidth, 49)];
 //    [self.tabBar addSubview:_arrowImageView];
@@ -89,7 +90,7 @@
     if (tag>=0 && tag<self.viewControllers.count) {
         self.selectedIndex = tag;
     }
-    //选中标记移动
+
     [UIView animateWithDuration:0.2 animations:^{
         _arrowImageView.center = button.center;
     }];
